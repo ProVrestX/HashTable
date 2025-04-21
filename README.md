@@ -37,7 +37,7 @@ callgrind.out.5 -- time = ~1.1s (2048 эл)
 
 больше всего времени -- FillTableFromFile/Str -> CreateList -> GetHash -> calloc
 
-решение -- перевисать GetHash на asm
+решение -- переписать GetHash на asm
 
 # 6
 
