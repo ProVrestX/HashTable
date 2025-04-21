@@ -68,7 +68,7 @@ int main (int argc, char* argv[]) {
         // printf("%d_ Check <%.*s>: %d\n", res, word_len, word, chk);
         // fprintf(file_res, "Check <%.*s>: %d\n", word_len, word, chk);
 
-        buf_len += GetChkStr(buf, word, word_len, chk);
+        buf_len += GetChkStr(buf + buf_len, word, word_len, chk);
 
         if(1024 - buf_len < 32) {
             fprintf(file_res, "%.*s", buf_len, buf);

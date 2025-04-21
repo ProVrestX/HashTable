@@ -49,7 +49,7 @@ callgrind.out.6 -- time = ~0.88s (2048 эл)
 
 # 7
 
-callgrind.out.7 -- time = ~0.2s (2048 эл)
+callgrind.out.7 -- time = ~0.33s (2048 эл)
 
 больше всего времени -- ListSearch
 
